@@ -1,3 +1,12 @@
+jobs:
+  include:
+   - os: linux
+     arch: amd64
+   - os: linux
+     arch: arm64
+   - os: osx
+     arch: arm64
+
 language: bash
 script: 
   - uname -a
